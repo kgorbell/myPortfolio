@@ -9,6 +9,7 @@ import Mtns_right from '../images/mountains_right.png';
 import Waves_lt from '../images/waves_light.png';
 import Waves_med from '../images/waves_med.png';
 import Waves_dark from '../images/waves_dark.png';
+import Lake from '../images/lake.png';
 
 class Jumbotron extends Component {
     constructor() {
@@ -36,7 +37,7 @@ class Jumbotron extends Component {
                         <img src={Waves_dark} alt='waves' className='wave dark'/>
                     </div>
                     <div className='grass'>
-
+                        <img src={Lake} alt='lake' className='lake'/>
                     </div>
                 </div>
             </div>
