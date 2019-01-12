@@ -35,6 +35,9 @@ class Jumbotron extends Component {
                         <img src={Waves_med} alt='waves' className='wave med'/>
                         <img src={Waves_dark} alt='waves' className='wave dark'/>
                     </div>
+                    <div className='grass'>
+
+                    </div>
                 </div>
             </div>
         )
