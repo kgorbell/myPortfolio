@@ -24,8 +24,7 @@ class Jumbotron extends Component {
             <div className='jumbotron'>
                 {/* <img src={Cloud1} alt='cloud'/>
                 <img src={Cloud2} alt='cloud'/>
-                <img src={Sun} alt='sun'/>
-                <img src={Tree} alt='tree'/> */}
+                <img src={Sun} alt='sun'/> */}
                 <div className='scenery'>
                     <div className='mountains'>
                         <img src={Mtns_left} alt='mountains' className='mtns_left'/>
