@@ -1,4 +1,5 @@
 .jumbotron {
+    min-height: 900px;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
@@ -40,9 +41,7 @@
             right: 0;
             margin-left: auto;
             margin-right: auto;
-            width: 550px;
-            // z-index: 1;
-        }
+            width: 550px;        }
 
         .lt {
             top: 690px;
@@ -60,7 +59,7 @@
 
         .grass {
             width: 100%;
-            height: 300px;
+            height: 340px;
             background-color: #85AB36;
             position: absolute;
             display: flex;
@@ -71,7 +70,14 @@
                 width: 346px;
                 height: 96px;
                 margin-top: -1px;
+                z-index: 2;
             }
+        }
+
+        .ground {
+            position: absolute;
+            top: 755px;
+            height: 270px;
         }
     } 
 }

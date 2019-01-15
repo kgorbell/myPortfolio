@@ -12,6 +12,7 @@ code {
   border: 1px solid red;
 }
 .jumbotron {
+  min-height: 900px;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -65,7 +66,7 @@ code {
 }
 .jumbotron .scenery .grass {
   width: 100%;
-  height: 300px;
+  height: 340px;
   background-color: #85AB36;
   position: absolute;
   display: flex;
@@ -76,6 +77,12 @@ code {
   width: 346px;
   height: 96px;
   margin-top: -1px;
+  z-index: 2;
+}
+.jumbotron .scenery .ground {
+  position: absolute;
+  top: 755px;
+  height: 270px;
 }
 .about-me {
   width: 100%;
