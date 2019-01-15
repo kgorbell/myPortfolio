@@ -23,10 +23,18 @@ class Jumbotron extends Component {
     render() {
         return (
             <div className='jumbotron'>
-                {/* <img src={Cloud1} alt='cloud'/>
-                <img src={Cloud2} alt='cloud'/>
-                <img src={Sun} alt='sun'/> */}
                 <div className='scenery'>
+                    <div className='air'>
+                        <img src={Sun} alt='sun' className='sun'/>
+                        <div className='clouds'>
+                            <img src={Cloud1} alt='cloud' className='cloud 1'/>
+                            <img src={Cloud1} alt='cloud' className='cloud 2'/>
+                            <img src={Cloud1} alt='cloud' className='cloud 3'/>
+                            <img src={Cloud2} alt='cloud' className='cloud 4'/>
+                            <img src={Cloud2} alt='cloud' className='cloud 5'/>
+                            <img src={Cloud2} alt='cloud' className='cloud 6'/>
+                        </div>
+                    </div>
                     <div className='mountains'>
                         <img src={Mtns_left} alt='mountains' className='mtns_left'/>
                         <img src={Mtns_right} alt='mountains' className='mtns_right'/>

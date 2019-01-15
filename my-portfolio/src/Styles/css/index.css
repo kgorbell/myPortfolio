@@ -29,6 +29,18 @@ code {
   position: relative;
   align-items: flex-start;
 }
+.jumbotron .scenery .air {
+  position: absolute;
+  width: 100%;
+}
+.jumbotron .scenery .air .sun {
+  height: 100px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.jumbotron .scenery .air .clouds .cloud {
+  height: 100px;
+}
 .jumbotron .scenery .mountains {
   display: flex;
   justify-content: center;
