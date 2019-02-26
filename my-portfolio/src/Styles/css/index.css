@@ -38,8 +38,14 @@ code {
   margin-top: 40px;
   margin-left: 40px;
 }
+.jumbotron .scenery .air .clouds {
+  position: relative;
+}
 .jumbotron .scenery .air .clouds .cloud {
   height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .jumbotron .scenery .mountains {
   display: flex;

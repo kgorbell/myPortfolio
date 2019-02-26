@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Cloud1 from '../images/cloud1.png';
 import Cloud2 from '../images/cloud2.png';
 import Sun from '../images/sun.png';
-import Tree from '../images/tree.png';
 import Mtns_left from '../images/mountains_left.png';
 import Mtns_right from '../images/mountains_right.png';
 import Waves_lt from '../images/waves_light.png';
@@ -11,13 +10,24 @@ import Waves_med from '../images/waves_med.png';
 import Waves_dark from '../images/waves_dark.png';
 import Lake from '../images/lake.png';
 import Ground from '../images/ground.png';
+import { TimeLineLite } from 'gsap';
 
 class Jumbotron extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
 
         }
+    }
+
+    animate = () => {
+        let animation = new TimeLineLite()
+        animation
+            .to(this.box, 1, { x:200 })
+    }
+
+    componentDidMount() {
+        
     }
 
     render() {
